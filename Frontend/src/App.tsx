@@ -5,6 +5,7 @@ import { Signup } from "./pages/signup"
 import './index.css'
 import Respection  from "./components/component/respection";
 import Doctor from "./components/component/doctor";
+import NotFound from "./components/component/NotFound";
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
         <Route path="/doctor" element={<Doctor/>} />
 
         <Route path="/respection" element={<Respection />} />
+
+        <Route path="*" element={<NotFound/>}/>
 
 
 

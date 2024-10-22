@@ -137,7 +137,7 @@ export function Signup() {
         {error && <p className="text-red-500">{error}</p>}
         {message && <p className="text-green-500">{message}</p>}
         <span className="flex justify-center">
-          Existing user? <a href="https://healthcare-checkup.netlify.app/">Login</a>
+          Existing user? <a href="https://healthcare-checkup.netlify.app/login">Login</a>
         </span>
       </CardContent>
     </Card>
