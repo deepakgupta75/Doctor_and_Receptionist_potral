@@ -187,7 +187,7 @@ const Respection = () => {
   React.useEffect(() => {
     const fetchPatients = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/patients");
+        const response = await fetch("https://doctor-and-receptionist-potral-5.onrender.com/api/patients");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
@@ -238,7 +238,7 @@ const Respection = () => {
      }
   
     try {
-      const response = await fetch("http://localhost:5000/api/patients", {
+      const response = await fetch("https://doctor-and-receptionist-potral-5.onrender.com/api/patients", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -293,7 +293,7 @@ const Respection = () => {
     try {
       console.log("Deleting patient with ID:", patientId); // Debug log
 
-      const response = await fetch(`http://localhost:5000/api/patients/${patientId}`, {
+      const response = await fetch(`https://doctor-and-receptionist-potral-5.onrender.com/api/patients/${patientId}`, {
         method: "DELETE",
         headers: {
           "Authorization": `Bearer ${token}`,
@@ -380,7 +380,7 @@ const Respection = () => {
     }
  
      try {
-       const response = await fetch(`http://localhost:5000/api/patients/${editingPatient._id}`, {
+       const response = await fetch(`https://doctor-and-receptionist-potral-5.onrender.com/api/patients/${editingPatient._id}`, {
          method: "PUT",
          headers: {
            "Content-Type": "application/json",
