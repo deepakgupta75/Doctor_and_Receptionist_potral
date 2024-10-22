@@ -19,7 +19,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
 
         {/* Redirect the root path ("/") to Login or Signup */}
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/" element={<Signup />} />
 
         <Route path="/doctor" element={<Doctor/>} />
 
