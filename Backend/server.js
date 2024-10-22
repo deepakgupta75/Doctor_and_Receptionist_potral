@@ -28,9 +28,9 @@ app.use(express.json());
 app.use('/api/auth',authRoutes);
 app.use('/api',patientRoutes)
 
-app.use("/",()=>{
+app.use("/", (req, res) => {
     res.send("server is running");
-})
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT,()=>{
