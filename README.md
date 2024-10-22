@@ -36,6 +36,4 @@ The project consists of two main portals:
 ---
 
 ## Live Demo
-[Click here to view the live project](## Live Demo
-[Click here to view the live project](YOUR_LIVE_PROJECT_LINK)
-)
+https://healthcare-checkup.netlify.app/
