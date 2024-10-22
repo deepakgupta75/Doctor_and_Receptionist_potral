@@ -106,7 +106,7 @@ export function Login() {
               <Button type="submit">Login</Button>
             </CardFooter>
           </form>
-          <span className="flex justify-center">New user? <a href="/signup">Signup</a></span>
+          <span className="flex justify-center">New user? <a href="https://healthcare-checkup.netlify.app/">Signup</a></span>
         </CardContent>
       </Card>
     </div>
